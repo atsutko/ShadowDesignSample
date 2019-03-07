@@ -12,6 +12,8 @@
 		C1327FE522291D0D008AAF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1327FE322291D0D008AAF4B /* Main.storyboard */; };
 		C1327FE722291D0F008AAF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1327FE622291D0F008AAF4B /* Assets.xcassets */; };
 		C1327FEA22291D0F008AAF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1327FE822291D0F008AAF4B /* LaunchScreen.storyboard */; };
+		C1327FF322291D44008AAF4B /* ShadowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1327FF122291D44008AAF4B /* ShadowTableViewCell.swift */; };
+		C1327FF422291D44008AAF4B /* ShadowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1327FF222291D44008AAF4B /* ShadowTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C1327FE622291D0F008AAF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1327FE922291D0F008AAF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1327FEB22291D0F008AAF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1327FF122291D44008AAF4B /* ShadowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowTableViewCell.swift; sourceTree = "<group>"; };
+		C1327FF222291D44008AAF4B /* ShadowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShadowTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				C1327FDF22291D0D008AAF4B /* AppDelegate.swift */,
 				C1327FE122291D0D008AAF4B /* ViewController.swift */,
+				C1327FF122291D44008AAF4B /* ShadowTableViewCell.swift */,
+				C1327FF222291D44008AAF4B /* ShadowTableViewCell.xib */,
 				C1327FE322291D0D008AAF4B /* Main.storyboard */,
 				C1327FE622291D0F008AAF4B /* Assets.xcassets */,
 				C1327FE822291D0F008AAF4B /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1327FEA22291D0F008AAF4B /* LaunchScreen.storyboard in Resources */,
+				C1327FF422291D44008AAF4B /* ShadowTableViewCell.xib in Resources */,
 				C1327FE722291D0F008AAF4B /* Assets.xcassets in Resources */,
 				C1327FE522291D0D008AAF4B /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1327FF322291D44008AAF4B /* ShadowTableViewCell.swift in Sources */,
 				C1327FE222291D0D008AAF4B /* ViewController.swift in Sources */,
 				C1327FE022291D0D008AAF4B /* AppDelegate.swift in Sources */,
 			);
